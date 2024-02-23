@@ -1,26 +1,33 @@
 # How to sreate project playwright with nodeJS
 
-1. `npm init playwright@latest`  
-    Run to create project playwright  
+Run to create project playwright:
 
-2. `npx playwright test`  
-    Runs the end-to-end tests.
+    npm init playwright@latest
 
-3. `npx playwright test --ui`  
-    Starts the interactive UI mode.
+Runs the end-to-end tests:
 
-4. `npx playwright test --project=chromium`  
-    Runs the tests only on Desktop Chrome.
+    npx playwright test
 
-5. `npx playwright test example`  
-    Runs the tests in a specific file.
+Starts the interactive UI mode:
 
-6. `npx playwright test --debug`  
-    Runs the tests in debug mode.
+    npx playwright test --ui
+  
+Runs the tests only on Desktop Chrome:
 
-7. `npx playwright codegen`  
-    Auto generate tests with Codegen.
+    npx playwright test --project=chromium
 
-We suggest that you begin by typing:
+Runs the tests in a specific file:
 
-    `npx playwright test`
+    npx playwright test example 
+
+Runs the tests in debug mode:
+
+    npx playwright test --debug  
+
+Auto generate tests with Codegen:
+
+    npx playwright codegen
+
+Runs the tests in unable headless mode:
+
+    npx playwright test --headed
