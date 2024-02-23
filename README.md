@@ -1,4 +1,4 @@
-# Playwright101
+# Playwright 101
 
 Run to create project playwright:
 
