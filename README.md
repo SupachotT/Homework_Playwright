@@ -1,4 +1,4 @@
-# How to sreate project playwright with nodeJS
+# Playwright101
 
 Run to create project playwright:
 
